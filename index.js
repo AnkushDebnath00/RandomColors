@@ -17,7 +17,6 @@ btn.addEventListener("click", () => {
 copyBtn.addEventListener("click", () => {
   navigator.clipboard.writeText(color.textContent);
   // alert("Copied the code: " + colorCode);
-  console.log(color.textContent);
   copyBtn.textContent = "Copied";
   copyBtn.style.borderColor = "gray";
   copyBtn.style.color = "gray";
